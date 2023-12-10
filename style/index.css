@@ -36,7 +36,7 @@ padding-left: 15px;
 /* header */
 .header-section {
   width: 100%;
-  background-image: url('/gif/head.gif');
+  background-image: url('../img/head.gif');
   margin-top: 100px;
   min-height: 700px;
   display: flex;
