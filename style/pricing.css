@@ -25,9 +25,9 @@ body{
   width: 180px;
   height: 70px;
  } 
-.nav-link {
-padding: 5px;
-font-size: 1.5rem;
+ .nav-link {
+  padding: 5px;
+  font-size: 21px;
 }
 .nav-item {
 padding-left: 15px;
