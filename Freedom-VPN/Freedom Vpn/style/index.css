@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+}
+body{
+   background-color:#0090c4;
+   min-width: 280px;
+}
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #a163ff;
+}
+.btn-primary:hover {
+  background-color: #524fff;
+  border-color: #524fff;
+}
+/* navbar */
+.navbar {
+  min-width: 280px; 
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.logo{
+  width: 180px;
+  height: 70px;
+ } 
+.nav-link {
+padding: 5px;
+font-size: 25px;
+}
+.nav-item {
+padding-left: 15px;
+}
+
+/* header */
+.header-section {
+  width: 100%;
+  background-image: url('/gif/head.gif');
+  margin-top: 100px;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.width100{
+  width: 100%;
+}
+.header-content {
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.header-content p{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.header-content .btn-primary {
+  font-size: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+/* section1 */
+.vpn-service {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+.vpn-service h2 {
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.vpn-service p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.vpn-service ul {
+  margin-left: 20px;
+}
+.vpn-service img {
+  margin: 15px 0;
+}
+/* section2 */
+.section-background-small{
+  width: 100%;
+  height: 15vh;
+}
+/* section3 */
+.pricing {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pricing-box {
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.pricing-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pricing-header h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.pricing-header h4 {
+  color: #777;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.pricing-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricing-body li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+.pricing-footer {
+  text-align: center;
+}
+.btn-block {
+  margin: 0 10%;
+  width: 80%;
+  margin-top: 30px;
+}
+.discount {
+  text-decoration: line-through;
+  color: #777;
+}
+/* section4 */
+.news {
+  background-color:#f7f7f7;
+}
+.card {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top{
+  height: 300px;
+}
+/* footer */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 50px 50px 20px 50px;
+  width: 100%;
+}
+.footer-h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.contact-icon {
+  margin-right: 10px;
+}
+.Contact-links, .Contact-links:hover, .col-md-6 ul li a{
+  color:white;
+}
+.footer-active{
+  text-decoration: underline;
+}
+.col-md-6 ul{
+  margin:0px;
+}
+.col-md-6 ul li{
+  list-style: none;
+}
+
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.social-icon{
+  color: #6c63ff; 
+}
+.social-icon:hover{
+  color:#524fff;
+  text-decoration: none;
+}
+.botmargin{
+  margin: 0px 0px 20px 0px;
+}
+.social-icons-box a{
+  margin: 0px 5px;
+}
+footer .copyright {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .logo{
+    width: 100px;
+    height: 65px;
+  }
+}
